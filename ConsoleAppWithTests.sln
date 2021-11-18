@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleAppTests", "ConsoleAppTests\ConsoleAppTests.vcxproj", "{CD6CDF0F-59AD-459B-86F6-7B93B70374F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99ACD13F-CD4A-42BC-9DF6-4B28C4BA951C} = {99ACD13F-CD4A-42BC-9DF6-4B28C4BA951C}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApp", "ConsoleApp\ConsoleApp.vcxproj", "{99ACD13F-CD4A-42BC-9DF6-4B28C4BA951C}"
 EndProject
